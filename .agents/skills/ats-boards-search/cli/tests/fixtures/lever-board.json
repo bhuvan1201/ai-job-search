@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3f1a2b4c-5d6e-4f70-8a9b-0c1d2e3f4a5b",
+    "text": "Senior ML Engineer, Training Infrastructure",
+    "createdAt": 1793059200000,
+    "hostedUrl": "https://jobs.lever.co/novalabs/3f1a2b4c-5d6e-4f70-8a9b-0c1d2e3f4a5b",
+    "applyUrl": "https://jobs.lever.co/novalabs/3f1a2b4c-5d6e-4f70-8a9b-0c1d2e3f4a5b/apply",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "Palo Alto, CA",
+      "team": "ML Platform",
+      "allLocations": ["Palo Alto, CA", "Remote - US"]
+    },
+    "workplaceType": "hybrid",
+    "description": "<div>Nova Labs trains frontier models.<br>We are hiring.</div>",
+    "descriptionPlain": "Nova Labs trains frontier models.\nWe are hiring.",
+    "lists": [
+      { "text": "Requirements", "content": "<li>5+ years with PyTorch</li><li>Distributed training at scale</li>" }
+    ],
+    "additional": "<p>Salary range posted per <a href=\"https://example.com\">local law</a>.</p>",
+    "additionalPlain": "Salary range posted per local law.",
+    "salaryRange": { "min": 220000, "max": 310000, "currency": "USD", "interval": "per-year-salary" }
+  },
+  {
+    "id": "7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+    "text": "Analytics Engineer",
+    "createdAt": 1790467200000,
+    "hostedUrl": "https://jobs.lever.co/novalabs/7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+    "applyUrl": "https://jobs.lever.co/novalabs/7a8b9c0d-1e2f-4a3b-9c4d-5e6f7a8b9c0d/apply",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Data",
+      "location": "United States",
+      "allLocations": ["United States"]
+    },
+    "workplaceType": "remote",
+    "description": "<p>Model our warehouse in dbt.</p>",
+    "descriptionPlain": "Model our warehouse in dbt.",
+    "lists": [],
+    "additional": "",
+    "additionalPlain": ""
+  }
+]

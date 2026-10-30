@@ -76,6 +76,10 @@ ALLOWED_PERMISSIONS = {
     "Bash(bun run .agents/skills/jobnet-search/cli/src/cli.ts:*)",
     "Bash(bun run .agents/skills/linkedin-search/cli/src/cli.ts:*)",
     "Bash(bun run .agents/skills/freehire-search/cli/src/cli.ts:*)",
+    # Added for the US-market fork: Greenhouse/Lever/Ashby public job-board APIs.
+    "Bash(bun run .agents/skills/ats-boards-search/cli/src/cli.ts:*)",
+    # Added for the US-market fork: HN "Who is hiring?" threads via the public Algolia/Firebase HN APIs.
+    "Bash(bun run .agents/skills/hn-hiring-search/cli/src/cli.ts:*)",
     "Bash(python salary_lookup.py:*)",
     "Bash(python3 salary_lookup.py:*)",
     "Bash(python tools/rank_state.py:*)",

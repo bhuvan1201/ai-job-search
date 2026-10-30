@@ -1,0 +1,20 @@
+{
+  "name": "hn-hiring-cli",
+  "version": "1.0.0",
+  "description": "CLI for searching the monthly \"Ask HN: Who is hiring?\" threads on Hacker News through the official Algolia / Firebase HN APIs — no authentication, zero runtime dependencies.",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "hn-hiring-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "1.3.14"
+  }
+}

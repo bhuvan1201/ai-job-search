@@ -181,6 +181,7 @@ This runs the full workflow: evaluate fit, draft CV + cover letter, review with 
 | `/add-template` | Registers your own CV or cover letter template |
 | `/add-portal` | Generates a search skill for a job board in your market |
 | `/reset` | Wipes profile data or documents - see [Starting over](#starting-over) |
+| `/daily` | *(this fork)* Unattended morning pass: scrape → rank → digest with deadline flags and quiet-application list; schedule it with `tools/schedule_daily.py` |
 
 <details>
 <summary><b>Full command reference</b></summary>

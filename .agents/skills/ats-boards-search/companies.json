@@ -1,0 +1,30 @@
+{
+  "_comment": "Starter list for the US-market fork. Board tokens are GUESSES (verified: false) - confirm them on first run with `bun run .agents/skills/ats-boards-search/cli/src/cli.ts boards --check`, then flip `verified` to true or fix/remove the entry. `ats` is one of greenhouse | lever | ashby; `token` is the board slug in the public job-board URL (job-boards.greenhouse.io/<token>, jobs.lever.co/<token>, jobs.ashbyhq.com/<token>).",
+  "companies": [
+    { "name": "Anthropic", "ats": "greenhouse", "token": "anthropic", "verified": false },
+    { "name": "Databricks", "ats": "greenhouse", "token": "databricks", "verified": false },
+    { "name": "Scale AI", "ats": "greenhouse", "token": "scaleai", "verified": false },
+    { "name": "Stripe", "ats": "greenhouse", "token": "stripe", "verified": false },
+    { "name": "Figma", "ats": "greenhouse", "token": "figma", "verified": false },
+    { "name": "Airbnb", "ats": "greenhouse", "token": "airbnb", "verified": false },
+    { "name": "Pinterest", "ats": "greenhouse", "token": "pinterest", "verified": false },
+    { "name": "Dropbox", "ats": "greenhouse", "token": "dropbox", "verified": false },
+    { "name": "Duolingo", "ats": "greenhouse", "token": "duolingo", "verified": false },
+    { "name": "Coinbase", "ats": "greenhouse", "token": "coinbase", "verified": false },
+    { "name": "Samsara", "ats": "greenhouse", "token": "samsara", "verified": false },
+    { "name": "Cloudflare", "ats": "greenhouse", "token": "cloudflare", "verified": false },
+    { "name": "GitLab", "ats": "greenhouse", "token": "gitlab", "verified": false },
+    { "name": "Robinhood", "ats": "greenhouse", "token": "robinhood", "verified": false },
+    { "name": "Reddit", "ats": "greenhouse", "token": "reddit", "verified": false },
+    { "name": "Twitch", "ats": "greenhouse", "token": "twitch", "verified": false },
+    { "name": "Mistral AI", "ats": "lever", "token": "mistral", "verified": false },
+    { "name": "Plaid", "ats": "lever", "token": "plaid", "verified": false },
+    { "name": "Palantir", "ats": "lever", "token": "palantir", "verified": false },
+    { "name": "OpenAI", "ats": "ashby", "token": "openai", "verified": false },
+    { "name": "Notion", "ats": "ashby", "token": "notion", "verified": false },
+    { "name": "Ramp", "ats": "ashby", "token": "ramp", "verified": false },
+    { "name": "Cursor", "ats": "ashby", "token": "cursor", "verified": false },
+    { "name": "Linear", "ats": "ashby", "token": "linear", "verified": false },
+    { "name": "Deel", "ats": "ashby", "token": "deel", "verified": false }
+  ]
+}
